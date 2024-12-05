@@ -30,3 +30,15 @@ df['% Change'] = df['% Change'].round(2)
 
 # Display the DataFrame
 print(df)
+
+import matplotlib.pyplot as plt
+
+# Plotting the Total Amounts
+df['Total'].plot(kind='line', marker='o', title='Total Amount Over Time')
+plt.ylabel('Total Amount')
+plt.show()
+
+# Plotting the Percentage Changes
+df['% Change'].plot(kind='bar', title='Percentage Change Over Time')
+plt.ylabel('Percentage Change (%)')
+plt.show()

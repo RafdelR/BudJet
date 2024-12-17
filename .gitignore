@@ -21,6 +21,7 @@ venv.bak/
 .ipynb_checkpoints/
 
 # Logs
+logs/
 *.log
 
 # Local configuration files

@@ -2,7 +2,7 @@
 
 Simple description of filestructure:
 
-```
+```graphql
 .
 ├── assets/
 │   ├── icons/                      # Static files like app icons
